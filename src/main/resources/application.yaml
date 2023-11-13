@@ -1,0 +1,15 @@
+server:
+  port: 10000
+spring:
+  webflux:
+    base-path: /${spring.application.name}
+  application:
+    name: weather-service
+
+routing:
+  weather-api:
+    url: https://998d8129-2264-4a98-a92e-ba8bde4a4d1c.mock.pstmn.io
+
+data:
+  output:
+    name: cities-forecast.csv
